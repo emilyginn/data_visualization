@@ -1,6 +1,8 @@
 ##################### BUILD TABLES FROM WEB SCRAPING #####################
 
 def extract_headers(rows):
+    from bs4 import BeautifulSoup
+    
     for row in rows:
         headers = row.find_all('th')
         header_texts = [header.text.strip() for header in headers]
@@ -8,6 +10,8 @@ def extract_headers(rows):
             return header_texts
         
 def extract_cells(rows):
+    from bs4 import BeautifulSoup 
+    
     output_cells = []
     cells = []
 
@@ -27,4 +31,5 @@ def extract_cells(rows):
     return output_cells
 
 def build_table(rows):
+    import pandas as pd
     return pd.DataFrame(extract_cells(rows), columns=extract_headers(rows))
