@@ -1,6 +1,6 @@
 # Data Visualization Projects
 
-## Project 1: [African Sunlight Hours](data_visualization/africa_sunlight_hours.ipynb)
+## Project 1: [African Sunlight Hours](africa_sunlight_hours.ipynb)
 
 This data visualization presents the average number of sunlight hours by month in each African country. The link to the data can be found [here](https://en.wikipedia.org/wiki/List_of_cities_by_sunshine_duration#Africa). The inspiration for this project comes from [a Tableau workbook](https://public.tableau.com/app/profile/owen.barnes/viz/SunlightinEurope/Dashboard5) I came across a couple of years ago and it's always stuck with me. I wanted to be able to create something similar using data visualization libraries in Python. One of the ways my adaptation differentiates from the inspiration, is that I chose to showcase sunlight hours for Africa instead of Europe. The idea behind this decision is that Africa splits along the equator, making for some interesting comparisons in sunlight hours among countries that fall above and below the equator.
 
