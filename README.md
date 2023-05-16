@@ -6,7 +6,7 @@ This data visualization presents the average number of sunlight hours by month i
 
 The data is presented as a series of bar charts in a grid-like fashion using seaborn's 'FacetGrid' function. Each subplot represents a different country. The x-axis displays each month of the year, and the y-axis represents the average number of sunlight hours for each respective month, along with the coloring of the bars. This project effectively showcases skills in data manipulation and visualization using an array of Python libraries.
 
-I plan to make the following updates in upcoming iterations:
+Moving forward, I plan to make the following updates in upcoming iterations:
 
 1. Add hover features to the bar charts.
 2. Include which month had the maximum amount of sunlight hours for each country.
